@@ -1,0 +1,44 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #330033;
+  }
+  
+  .title {
+      font-size: 48px;
+      font-weight: bold;
+      text-align: center;
+      color: #ff69b4;
+      margin-bottom: 30px;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  button {
+      background-color: #ffbf00;
+      border-radius: 10px;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 20px;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      transition: all 0.3s ease;
+  }
+    
+  button:hover {
+      background-color: #fff;
+      border: 2px solid #ffbf00;
+      color: #ffbf00;
+      transform: scale(1.1);
+  }
+  
